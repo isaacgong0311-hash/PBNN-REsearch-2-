@@ -1,8 +1,3 @@
-# PBNN: Pure Binary Neural Networks
-
-Research with Prof. Liping Liu (Tufts CS) on training **pure binary neural networks**: networks whose computation uses only AND, OR and XOR on bits, with no floating-point arithmetic at inference.
-
-Isaac Gong, July to October 2026. Collaborator: Alexander Meng.
 
 ## Headline result
 
