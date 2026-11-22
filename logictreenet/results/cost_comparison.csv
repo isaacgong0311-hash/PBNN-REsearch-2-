@@ -1,0 +1,5 @@
+model,cifar10_hard_top1,selection,seeds,binary_ops_per_image,binary_op_kind,fp_macs_per_image,fp_elementwise_ops_per_image,params_or_gates,ops_bireal_convention
+LogicTreeNet S (balanced head wiring),58.99,5k validation,5,960512,2-input logic gate,0,0,83552 trainable gates,15008
+LogicTreeNet M (balanced head wiring),70.80,5k validation,7,7684096,2-input logic gate,0,0,668416 trainable gates,120064
+BiPer ResNet-18 (released checkpoint),93.76,10k test (their code),1,547356672,1-bit MAC (XNOR + popcount),1774592,1294848,11008842 params,10327040
+BiPer ResNet-18 (our retrain clean split),92.65,5k validation,3,547356672,1-bit MAC (XNOR + popcount),1774592,1294848,11008842 params,10327040

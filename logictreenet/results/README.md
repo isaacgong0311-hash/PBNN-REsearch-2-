@@ -16,4 +16,6 @@ Every number in the READMEs and write-ups comes from these files. CIFAR-10 test 
 | `gate_ones_dead_share_S.csv` | Dead-gate share by layer (seed-0 models) |
 | `res_phase0_S.csv` | Residual units: speed, memory, gate counts, 2-epoch smoke runs |
 | `res_phase1_S.csv`, `res_phase1_S_per_run.csv` | Residual units, 5 arms x 5 seeds, vs balanced wiring |
+| `cost_comparison.csv` | Per-image binary and full-precision operation counts, LogicTreeNet vs BiPer |
+| `biper_cifar_eval_freq30.json`, `biper_cifar_eval_freq20.json` | Released BiPer checkpoint: top-1, MACs (corrected), binary-weight checks, full-precision modules |
 | `biper_r18_cifar10_retrain.csv`, `biper_r18_cifar10_f30_and_splits.csv` | BiPer ResNet-18 retrains |

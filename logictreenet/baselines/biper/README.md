@@ -12,6 +12,6 @@ BiPer: *Binary Neural Networks using a Periodic Function* (CVPR 2024, [arXiv:240
 | Our retrain, paper split, freq 20 / 30 (3 seeds) | 93.32 / 93.35 |
 | Our retrain, clean 45k/5k split, test once (3 seeds) | 92.65 |
 
-Per-seed numbers: `../../results/biper_r18_cifar10_retrain.csv`, `../../results/biper_r18_cifar10_f30_and_splits.csv`. Details: `../../docs/report_residual_biper_2026-11-19.md`.
+Released-checkpoint evaluations: `../../results/biper_cifar_eval_freq{30,20}.json` (the MAC fields were corrected on Nov 22; the original Drive copies came from an older script that divided by the batch size). Per-seed numbers: `../../results/biper_r18_cifar10_retrain.csv`, `../../results/biper_r18_cifar10_f30_and_splits.csv`. Details: `../../docs/report_residual_biper_2026-11-19.md`.
 
 BiPer is not a pure binary network: the first conv, final linear layer, every BatchNorm, per-channel scaling and the residual sums are real-valued (binary convs are 99.7% of MACs). Compare it with LogicTreeNet on accuracy against inference cost, not accuracy alone.

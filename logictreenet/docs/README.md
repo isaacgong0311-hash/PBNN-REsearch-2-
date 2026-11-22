@@ -7,5 +7,7 @@
 | `addendum_bias_alldropout.md` | Nov 10 | Pass-through bias with Gumbel, dropout on all layers, head-dropout confirmation seeds |
 | `addendum3_perm_bias_scaleM.md` | Nov 12 | Permutation dropout, Gumbel bias 15/20, scale M skips, dead gates over 10 seeds |
 | `report_residual_biper_2026-11-19.md` | Nov 19 | Residual units design and speed, BiPer setup. Written before the residual runs finished: final numbers are in `../results/res_phase1_S.csv` and the main README |
+| `cost_comparison.md` | Nov 22 | LogicTreeNet S/M vs BiPer ResNet-18: binary ops, full-precision ops, OPs |
+| `handoff_claude_science_2026-11-22.md` | Nov 22 | Next cluster runs: code sync, scale M seeds, Gumbel init test |
 
 p-values throughout are Welch tests, not corrected for multiple comparisons.

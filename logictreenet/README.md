@@ -28,6 +28,7 @@ Balanced head wiring is the only change that has helped consistently: +1.17 at S
 | TaskFreeze / GlobalFreeze (Gerlach 2026) | Closes the gap (M 0.58) by lowering soft accuracy; hard does not rise | `docs/report_gumbel_freeze_dropout.md` |
 | Concat skip connections | Within noise; nothing on top of balanced wiring | `results/combo_results_S_M.csv` |
 | Residual units in conv stages | No arm beats balanced wiring alone (best 58.91); skip prevents the loss from extra depth (53.16 without it) | `results/res_phase1_S.csv` |
+| BiPer ResNet-18 (binary ResNet baseline) | 93.76 released, 92.65 our clean split; not pure binary, about 86x the OPs of M | `docs/cost_comparison.md`, `baselines/biper/` |
 | Longer training (2x, 4x) | +0.85 / +1.27 at S, within noise | `figures/fig_budget_sweep.png` |
 
 ## Differences from the paper's recipe
