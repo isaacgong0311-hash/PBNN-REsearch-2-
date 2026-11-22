@@ -1,0 +1,14 @@
+arm,seed,hard,soft,gap
+M_balanced_head_wiring,0,70.95,72.41,1.46
+M_balanced_head_wiring,1,71.54,72.92,1.38
+M_balanced_head_wiring,2,70.76,72.74,1.98
+M_balanced_head_wiring,3,69.91,72.24,2.33
+M_balanced_head_wiring,4,70.77,72.79,2.02
+M_balanced_head_wiring,5,70.47,72.11,1.64
+M_balanced_head_wiring,6,71.17,72.84,1.67
+M_baseline,0,70.53,72.15,1.62
+M_baseline,1,69.85,72.13,2.28
+M_baseline,2,70.14,72.73,2.59
+M_baseline,3,69.8,71.42,1.62
+M_baseline,4,70.27,72.38,2.11
+M_baseline,5,70.44,72.42,1.98
