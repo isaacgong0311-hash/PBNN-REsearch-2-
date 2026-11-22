@@ -1,0 +1,233 @@
+{
+ "freq": 30.0,
+ "n_test": 10000,
+ "top1": 93.76,
+ "seconds": 130.1,
+ "ckpt_epoch": 285,
+ "ckpt_best_prec1": 93.75,
+ "macs_per_image": {
+  "binary_conv": 547356672,
+  "fp_conv": 1769472,
+  "fp_linear": 5120
+ },
+ "n_params": 11008842,
+ "binary_conv_layers": [
+  {
+   "name": "layer1.0.conv1",
+   "shape": [
+    64,
+    64,
+    3,
+    3
+   ],
+   "frac_plus": 0.5020344853401184,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer1.0.conv2",
+   "shape": [
+    64,
+    64,
+    3,
+    3
+   ],
+   "frac_plus": 0.4991861879825592,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer1.1.conv1",
+   "shape": [
+    64,
+    64,
+    3,
+    3
+   ],
+   "frac_plus": 0.5001627802848816,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer1.1.conv2",
+   "shape": [
+    64,
+    64,
+    3,
+    3
+   ],
+   "frac_plus": 0.5020344853401184,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer2.0.conv1",
+   "shape": [
+    128,
+    64,
+    3,
+    3
+   ],
+   "frac_plus": 0.5027669072151184,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer2.0.conv2",
+   "shape": [
+    128,
+    128,
+    3,
+    3
+   ],
+   "frac_plus": 0.5030653476715088,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer2.1.conv1",
+   "shape": [
+    128,
+    128,
+    3,
+    3
+   ],
+   "frac_plus": 0.4981214702129364,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer2.1.conv2",
+   "shape": [
+    128,
+    128,
+    3,
+    3
+   ],
+   "frac_plus": 0.5002373456954956,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer3.0.conv1",
+   "shape": [
+    256,
+    128,
+    3,
+    3
+   ],
+   "frac_plus": 0.5001288652420044,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer3.0.conv2",
+   "shape": [
+    256,
+    256,
+    3,
+    3
+   ],
+   "frac_plus": 0.5011918544769287,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer3.1.conv1",
+   "shape": [
+    256,
+    256,
+    3,
+    3
+   ],
+   "frac_plus": 0.4998660683631897,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer3.1.conv2",
+   "shape": [
+    256,
+    256,
+    3,
+    3
+   ],
+   "frac_plus": 0.4978400468826294,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer4.0.conv1",
+   "shape": [
+    512,
+    256,
+    3,
+    3
+   ],
+   "frac_plus": 0.5000491738319397,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer4.0.conv2",
+   "shape": [
+    512,
+    512,
+    3,
+    3
+   ],
+   "frac_plus": 0.4997537434101105,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer4.1.conv1",
+   "shape": [
+    512,
+    512,
+    3,
+    3
+   ],
+   "frac_plus": 0.5000364780426025,
+   "n_zero": 0,
+   "only_pm1": true
+  },
+  {
+   "name": "layer4.1.conv2",
+   "shape": [
+    512,
+    512,
+    3,
+    3
+   ],
+   "frac_plus": 0.5000690817832947,
+   "n_zero": 0,
+   "only_pm1": true
+  }
+ ],
+ "all_binary_conv_weights_pm1": true,
+ "full_precision_modules": [
+  "conv1: Conv2d",
+  "bn1: BatchNorm2d",
+  "layer1.0.bn1: BatchNorm2d",
+  "layer1.0.bn2: BatchNorm2d",
+  "layer1.1.bn1: BatchNorm2d",
+  "layer1.1.bn2: BatchNorm2d",
+  "layer2.0.bn1: BatchNorm2d",
+  "layer2.0.bn2: BatchNorm2d",
+  "layer2.1.bn1: BatchNorm2d",
+  "layer2.1.bn2: BatchNorm2d",
+  "layer3.0.bn1: BatchNorm2d",
+  "layer3.0.bn2: BatchNorm2d",
+  "layer3.1.bn1: BatchNorm2d",
+  "layer3.1.bn2: BatchNorm2d",
+  "layer4.0.bn1: BatchNorm2d",
+  "layer4.0.bn2: BatchNorm2d",
+  "layer4.1.bn1: BatchNorm2d",
+  "layer4.1.bn2: BatchNorm2d",
+  "linear: Linear",
+  "bn2: BatchNorm1d"
+ ],
+ "has_alpha_scaling": 16,
+ "macs_note": "Corrected 2026-11-22. The original file was written by an older biper_eval_cifar.py that divided by the eval batch size (250) and floored. Counts depend only on the architecture; the current script gives these values on BiPer's resnet18_1w1a and they match the per-layer shape count."
+}

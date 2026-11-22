@@ -1,0 +1,4 @@
+seed,stage1_best_top1_real_weights,stage1_best_epoch,stage2_best_top1_binary_weights,stage2_best_epoch,split,freq,wall_hours
+0,93.89,572,93.35,291,paper (50k train; best epoch picked on the 10k test split),20,3.0
+1,94.0,591,93.38,255,paper (50k train; best epoch picked on the 10k test split),20,3.16
+2,93.79,594,93.22,294,paper (50k train; best epoch picked on the 10k test split),20,3.18
